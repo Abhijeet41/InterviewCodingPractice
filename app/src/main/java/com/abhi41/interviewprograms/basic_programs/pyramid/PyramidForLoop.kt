@@ -4,8 +4,9 @@ fun main(){
     val numRows = 5
     //printStarPyramid(numRows)
 
-   // printNumberPattern()
+    //printNumberPattern()
     pyramidNumberPattern()
+    
 }
 
 fun printStarPyramid(numRows: Int) {
@@ -71,3 +72,34 @@ fun pyramidNumberPattern(){
   4 5 6
  7 8 9 10
  */
+
+
+
+fun pyramidNumber(){
+    val row = 4
+    var num = 1
+
+    for (i in 1..4){
+        for (j in 1..row - 1){
+            print("*")
+        }
+        for (j in 1..i){
+            print(num )
+            num++
+        }
+
+        println()
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

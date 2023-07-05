@@ -1,6 +1,27 @@
 package com.abhi41.interviewprograms.basic_programs.numbers
 
 fun main() {
+    //printFibonacciSeries()
+    usingRepeat()
+
+}
+
+fun usingRepeat() {
+    var count = 1
+    var firstNum = 0
+    var secondNum = 1
+
+    repeat(10){
+        print("$firstNum ")
+
+        val result = firstNum + secondNum
+        firstNum = secondNum
+        secondNum = result
+        count ++
+    }
+}
+
+fun printFibonacciSeries() {
     //print fibinacci series upto given term
     //0 1 1 2 3 5 8 13 21 34
     val number = 10
@@ -24,3 +45,12 @@ fun main() {
          */
     }
 }
+
+
+
+
+
+
+
+
+

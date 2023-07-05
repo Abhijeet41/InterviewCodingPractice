@@ -32,3 +32,51 @@ fun swapTwoNumUsing3rdVariable() {
 
     println("After Swaping: a = $a, b = $b")
 }
+
+
+private fun swap2Number(){
+    var num1 = 3
+    var num2 = 5
+
+
+    // now without using 3rd variable
+    println("Before swapping number : $num1 and $num2")
+    num1 = num1 + num2 //3+5 = 8
+    num2 = num1 - num2 // 8-5 = 3
+    num1 = num1 - num2 //8-3 = 5
+
+    println("After swapping number : $num1 and $num2")
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

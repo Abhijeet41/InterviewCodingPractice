@@ -65,3 +65,18 @@ fun totalNumberGreaterThenGivenNum(numbers: MutableList<Int>) {
     println("Number of element less then $givenNum is $tempMin")
 
 }
+
+fun findSecondhighestNumber(){
+    var listOfnumbers = mutableListOf(2,3,5,1,4,8,3,12)
+    var max = -1
+    var secondmax = -1
+
+    for(num in listOfnumbers){
+        if (num > max){
+            secondmax = max // -1 , 2,3
+            max = num  //2,3,5
+        }else if (num > secondmax && secondmax != max){
+            secondmax = num
+        }
+    }
+}

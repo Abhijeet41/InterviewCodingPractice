@@ -2,7 +2,7 @@ package com.abhi41.interviewprograms.basic_programs.numbers
 
 
 fun main() {
-  //  printEvenNumber()
+    printEvenNumber()
     printOddNumber()
 }
 

@@ -17,8 +17,8 @@ fun checkWeatherNumPrimeOrNot(number: Int) {
     if (number <= 1) {
         isPrime = false
     } else {
-        for ( i in 2..number - 1){
-            if (number % i == 0){
+        for (i in 2..number - 1) {
+            if (number % i == 0) {
                 isPrime = false
             }
         }
@@ -29,3 +29,62 @@ fun checkWeatherNumPrimeOrNot(number: Int) {
         println("$number is not a prime number")
     }
 }
+
+
+fun findPrimeNumber(){
+    val number = 13 //number should not divisible by 0,1 and number itself
+    var isPrime = true
+
+    if (number <= 1){
+        isPrime = false
+    }else{
+        for (num in 2..number-1){
+            if (num % 2 == 0){
+                isPrime = false
+            }
+        }
+    }
+
+    if (isPrime){
+        println("the given number $number is prime number")
+    }else{
+        println("the given number $number is not a prime number")
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,8 +2,8 @@ package com.abhi41.interviewprograms.basic_programs.char
 
 fun main(){
     val inputString = "Hello World!"
-    findDuplicateCharacters(inputString)
     removeDuplicateCharacter(inputString)
+    findDuplicateCharacters(inputString)
 }
 
 
